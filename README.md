@@ -66,10 +66,10 @@ python -m venv .venv
 source .venv/bin/activate # Mac/Linux
 .venv\Scripts\activate # Windows
 
-###3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-4️⃣ Run the Notebook
+### 4️⃣ Run the Notebook
 
 Open the notebook file:
 
