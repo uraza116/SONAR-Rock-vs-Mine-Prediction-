@@ -56,14 +56,15 @@ SVC Accuracy: 88.10%
 
 ### 1️⃣ Clone the Repository
 
-```bash
+bash
 git clone https://github.com/uraza116/SONAR-Rock-vs-Mine-Prediction-
 cd your-repo-name
 
 ### 2️⃣ Create a Virtual Environment
+
 python -m venv .venv
-source .venv/bin/activate      # Mac/Linux
-.venv\Scripts\activate         # Windows
+source .venv/bin/activate # Mac/Linux
+.venv\Scripts\activate # Windows
 
 ###3️⃣ Install Dependencies
 pip install -r requirements.txt
@@ -73,6 +74,7 @@ pip install -r requirements.txt
 Open the notebook file:
 
 sonar_mine_vs_rock.ipynb
+
 ```
 
 ## Technologies Used
@@ -92,3 +94,4 @@ sonar_mine_vs_rock.ipynb
 - Understanding model performance evaluation using accuracy
 
 - Practical implementation of binary classification
+```
