@@ -43,11 +43,52 @@ Feature scaling was applied using **StandardScaler**, which is important for dis
 
 Below are the model accuracies on the test set:
 
-Logistic Regression: 0.8095
-KNN: 0.9048
-Random Forest: 0.8571
-Support Vector: 0.8810
+Logistic Regression Accuracy: 80.95%
+KNN Accuracy: 90.48%
+Random Forest Accuracy: 85.71%
+SVC Accuracy: 88.10%
 
-Best Model Selected is KNeighborsClassifier
+**Best Performing Model:** [KNeighborsClassifier]
 
-Best Accuracy is 0.9048
+---
+
+## ⚙️ How to Run
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/uraza116/SONAR-Rock-vs-Mine-Prediction-
+cd your-repo-name
+
+### 2️⃣ Create a Virtual Environment
+python -m venv .venv
+source .venv/bin/activate      # Mac/Linux
+.venv\Scripts\activate         # Windows
+
+###3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+4️⃣ Run the Notebook
+
+Open the notebook file:
+
+sonar_mine_vs_rock.ipynb
+```
+
+## Technologies Used
+
+- Python
+
+- Pandas
+
+- NumPy
+
+- Scikit-learn
+
+## Key Takeaways
+
+- Comparison of multiple classification algorithms on the same dataset
+
+- Understanding model performance evaluation using accuracy
+
+- Practical implementation of binary classification
