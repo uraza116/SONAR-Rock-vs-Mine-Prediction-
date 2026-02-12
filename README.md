@@ -67,31 +67,24 @@ source .venv/bin/activate # Mac/Linux
 .venv\Scripts\activate # Windows
 
 ### 3️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
 ### 4️⃣ Run the Notebook
 
-Open the notebook file:
+### Open the notebook file:
 
 sonar_mine_vs_rock.ipynb
-
-```
 
 ## Technologies Used
 
 - Python
-
 - Pandas
-
 - NumPy
-
 - Scikit-learn
 
 ## Key Takeaways
 
 - Comparison of multiple classification algorithms on the same dataset
-
 - Understanding model performance evaluation using accuracy
-
 - Practical implementation of binary classification
-```
